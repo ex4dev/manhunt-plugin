@@ -1,0 +1,10 @@
+name: SpeedrunnerPlugin
+version: '${project.version}'
+main: dev.ex4.speedrunnerplugin.SpeedrunnerPlugin
+api-version: 1.19
+authors: [ex4]
+commands:
+  startrun:
+    description: "Starts the run"
+  compass:
+    description: "Gives you a compass"
